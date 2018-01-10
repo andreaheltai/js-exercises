@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English to Morse</title>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+<body>
+    <div id="col1" class="column">
+        <h2>English - Morse Converter</h2>
+        <p>Use only alphanumeric characters or spaces in the text.</p>
+        <textarea id="en" rows="6" cols="41" name="english" placeholder="Enter text in English here"></textarea>
+        <input id="En-Mo" type="button" name="convert" value="Convert to Morse"/>
+        <textarea id="res1" rows="6" cols="41" name="output-morse" placeholder="Results are shown here"></textarea>
+    </div>
+    <div class="column">
+        <h2>Morse - English Converter</h2>
+        <p>Separate letters with 1 space and words with 3 spaces</p>
+        <textarea id="mo" rows="6" cols="41" name="morse" placeholder="Enter text in Morse here"></textarea>
+        <input id="Mo-En" type="button" name="convert" value="Convert to English"/>
+        <textarea id="res2" rows="6" cols="41" name="output-english" placeholder="Results are shown here"></textarea>
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
